@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+PROJECT TITLE:
+
+TASK TRACKER built with REACT.JS
+
+DESCRIPTION:
+
+The Task Tracker is a basic application which allows the user to add tasks to be done along with a date and time stamp.
+It also allows the user to mark tasks as active or completed, which is indicated by a change of the background color.
+The user can also delete tasks from the list of task.
+
+PURPOSE OF BUILDING THIS PROJECT:
+
+The purpose behind building this project is to learn ReactJs, by understanding and developing comfort with the syntax.
+This is a rebuild of a tutorial/code along I followed on youtube by a channel called Traversy Media.
+The rebuild will be done without reference to the video, and unless stuck, the code. The objective is to gauge understanding of concepts and ability to use the ReactJs teachnology to build basic applications.
+
+ADDITIONAL INFORMATION:
+
+This project is also important for the following reasons:
+- it is the first time a README file has been written for a project by me.
+- this project will be created with the best possible version control practice using Git. 
+    - Files will be tracked.
+    - Files will be committed after appropriate changes in code to make commit messages effective and concise.
+    - Files will be pushed to the remote repository on GitHub.
+
+WHAT HAVE I LEARNED IN THE PROCESS OF MAKING THIS PROJECT:
+(To be updated along the way)
+
+INITIALIZING THE REACT APP:
+
+1. A React App can be created using the "create-react-app (folder name)" command. for Eg. "create-react-app my-app"
+2. Change directory to the newly created "my-app" folder with the "cd my-app" command.
+3. Execute "npm start" to host the app on the local server. App is automatically refreshed as changes are made and saved. 
+4. Delete unnecessary files and boiler plate code.
+5. Display "Hello React".
+
+CREATE A REPOSITORY ON GITHUB:
+
+1. Create a new repositiory on github. Copy the url and execute in the terminal "git remote add origin (url)".
+2. Push the local repository on the remote repository with the command "git push -u origin master"
+    "Branch 'Master' set up to track remote branch 'master' from 'origin'."
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
