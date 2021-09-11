@@ -4,6 +4,7 @@ import Tasks from "./components/Tasks";
 import { useState } from "react";
 
 function App() {
+  const [showAddForm, setShowAddForm] = useState(false);
   const [taskData, updateTaskData] = useState([
     {
       id: 1,
@@ -28,11 +29,14 @@ function App() {
     updateTaskData([...taskData, newTask]);
     console.log(taskData);
   }
+  const deleteTask = (id) => {
+    updateTaskData(taskData.filter((x)=> x.id !== id))
+  }
   return (
     <div className="container">
-      <Header />
-      <AddTask onAdd = {addTask}/>
-      <Tasks tasks={taskData}/>
+      <Header onAdd={()=>setShowAddForm(!showAddForm)} />
+      {showAddForm? <AddTask onAdd = {addTask}/> : ''}
+      <Tasks tasks={taskData} onDelete ={deleteTask}/>
     </div>
   );
 }

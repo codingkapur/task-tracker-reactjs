@@ -1,8 +1,10 @@
-function Header() {
+import Button from './Button';
+
+function Header({onAdd}) {
   return (
     <div className="header-container">
       <h1>TASK TRACKER</h1>
-      <button className="btn btn-add-task">Add Task</button>
+      <Button text='Add' onClick={onAdd} />
     </div>
   );
 }
