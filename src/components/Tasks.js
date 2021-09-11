@@ -1,10 +1,10 @@
 import Task from './Task';
 
-function Tasks({tasks, onDelete}) {
+function Tasks({tasks, onDelete, onDoubleClick}) {
     return (
         <div className="tasks-container">
             {tasks.map((task)=> {
-                return <Task key={task.id} task={task} onDelete={onDelete}/>
+                return <Task key={task.id} task={task} onDelete={onDelete} onDoubleClick={onDoubleClick}/>
             })}
         </div>
     )

@@ -2,7 +2,7 @@ import { useState } from 'react';
 function AddTask({onAdd}) {
     const [text, setText] = useState('')
     const [time, setTime] = useState('')
-
+    const [status, setStatus] = useState(false)
     const onSubmit = (e) => {
         e.preventDefault();
 
@@ -11,10 +11,11 @@ function AddTask({onAdd}) {
             return
         }
 
-        onAdd({text, time})
+        onAdd({text, time, status})
 
         setText('');
         setTime('');
+        setStatus(false)
     }
     return (
         <form className="form-container" onSubmit={onSubmit}>
@@ -25,6 +26,10 @@ function AddTask({onAdd}) {
             <div className="form-control">
                 <label>Date and Time</label>
                 <input type="text" placeholder="Date and Time" value={time} onChange = {((e)=> setTime(e.target.value))}></input>
+            </div>
+            <div className="form-control">
+                <label>Remind me:</label>
+                <input type="checkbox" checked={status} onChange = {((e)=> setStatus(e.currentTarget.checked))}></input>
             </div>
     
             <input type="submit" value="Save Task" className="btn btn-save-task" onSubmit={onAdd}></input>
