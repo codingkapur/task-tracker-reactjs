@@ -23,8 +23,7 @@ This project is also important for the following reasons:
     - Files will be committed after appropriate changes in code to make commit messages effective and concise.
     - Files will be pushed to the remote repository on GitHub.
 
-WHAT HAVE I LEARNED IN THE PROCESS OF MAKING THIS PROJECT:
-(To be updated along the way)
+STEPS/PROCESS:
 
 INITIALIZING THE REACT APP:
 
@@ -39,6 +38,29 @@ CREATE A REPOSITORY ON GITHUB:
 1. Create a new repositiory on github. Copy the url and execute in the terminal "git remote add origin (url)".
 2. Push the local repository on the remote repository with the command "git push -u origin master"
     "Branch 'Master' set up to track remote branch 'master' from 'origin'."
+3. Execute "git status" to check status of local repository and remote repositiory.
+    "Your branch is up to date with 'origin/master'."
+4. Files are now being tracked for modifications locally as well as in comparison to files on the remote repo.
+
+CREATE A COMPONENTS FOLDER:
+
+1. Create a new file called "Header.js"
+2. Not using snippets to replicate boiler plate code to maximize familiarity with code and also develop muscle memory.
+3. Function declared, exported, and imported into the app.js file.
+4. Create a component file called Tasks.js. Describe structure of element. 
+5. Create a component file called Task.js. Import it into Tasks.js. 
+6. Import Tasks in app.js.
+    Chain of components created.
+    App(Main component) - > Tasks -> Task
+                        - > Header
+
+WHAT HAVE I LEARNED IN THE PROCESS OF MAKING THIS PROJECT:
+(To be updated along the way)
+
+1. React is a component based system for designing modern interactive user interfaces. Every element can be made into a component and it is only upto the user to which depth components are to be nested. That implies that the element in the user interface gets its own file where it is described, and then imported into the main app, or parent app, for rendering. This allows for seperation of code, for better organization, reusability and ease of maintainence.
+2. Componenets are in the .js format, stored in a folder called components, placed in the src folder. Convention dictates that the file name of the component file should be capitalized. Such a file is composed of a function. It 
+3. A js file in the components folder will return one html element. If there are more than one elements, they should be nested wihtin one parent element (like a div, or even empty structure like <> Place Elements here</>). Component file exports the function "export default (functionName)".
+4. Components are imported into the file where they are used by saying "import (function name) from ('./components/function name').
 
 
 

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family:'Poppins', sans-serif;
+}
+.container {
+    width: 95%;
+    max-width: 767px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    margin: 0.2rem;
+    width: 95%;
+    border-radius: 10px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(235, 235, 235);
+
+}
+.header-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.btn {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 148, 235);
+    cursor: pointer;
+}
+
+.form-container {
+    /* border: 1px solid #000; */
+    width: 95%;
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+.form-control {
+    padding: 1rem 0;
+    margin: 1rem 0;
+    /* background-color: rgb(255, 211, 211); */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.form-control label {
+    margin-left: 0;
+}
+.form-control input {
+    border: none;
+    background-color: rgb(226, 238, 253);
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    outline: none;
+}
+
+.btn-save-task {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.tasks-container {
+    width: 95%;
+}
+.task-container {
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(207, 226, 252);
+}
