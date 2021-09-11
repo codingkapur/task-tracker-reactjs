@@ -4,7 +4,7 @@ function Tasks({tasks}) {
     return (
         <div className="tasks-container">
             {tasks.map((task)=> {
-                return <Task key={task.key} task={task}/>
+                return <Task key={task.id} task={task}/>
             })}
         </div>
     )
