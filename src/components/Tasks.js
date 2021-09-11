@@ -1,9 +1,11 @@
 import Task from './Task';
 
-function Tasks() {
+function Tasks({tasks}) {
     return (
         <div className="tasks-container">
-            <Task />
+            {tasks.map((task)=> {
+                return <Task key={task.key} task={task}/>
+            })}
         </div>
     )
 }
