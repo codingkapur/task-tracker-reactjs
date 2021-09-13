@@ -3,10 +3,12 @@ PROJECT TITLE:
 TASK TRACKER built with REACT.JS
 
 HOW TO INSTALL PROJECT;
+Prequisite: Node 14
+Node version: 
 1. Run command 'git clone https://github.com/codingkapur/task-tracker-reactjs.git'
 2. Run command 'npm install"
-3. run command 'npm run build'
-4. run command 'npm 
+3. run command 'npm run server'
+4. run command 'npm start'
 
 DESCRIPTION:
 
