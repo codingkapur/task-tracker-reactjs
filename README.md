@@ -2,6 +2,12 @@ PROJECT TITLE:
 
 TASK TRACKER built with REACT.JS
 
+HOW TO INSTALL PROJECT;
+1. Run command 'git clone https://github.com/codingkapur/task-tracker-reactjs.git'
+2. Run command 'npm install"
+3. run command 'npm run build'
+4. run command 'npm 
+
 DESCRIPTION:
 
 The Task Tracker is a basic application which allows the user to add tasks to be done along with a date and time stamp.
@@ -22,37 +28,7 @@ This project is also important for the following reasons:
     - Files will be tracked.
     - Files will be committed after appropriate changes in code to make commit messages effective and concise.
     - Files will be pushed to the remote repository on GitHub.
-
-STEPS/PROCESS:
-
-INITIALIZING THE REACT APP:
-
-1. A React App can be created using the "create-react-app (folder name)" command. for Eg. "create-react-app my-app"
-2. Change directory to the newly created "my-app" folder with the "cd my-app" command.
-3. Execute "npm start" to host the app on the local server. App is automatically refreshed as changes are made and saved. 
-4. Delete unnecessary files and boiler plate code.
-5. Display "Hello React".
-
-CREATE A REPOSITORY ON GITHUB:
-
-1. Create a new repositiory on github. Copy the url and execute in the terminal "git remote add origin (url)".
-2. Push the local repository on the remote repository with the command "git push -u origin master"
-    "Branch 'Master' set up to track remote branch 'master' from 'origin'."
-3. Execute "git status" to check status of local repository and remote repositiory.
-    "Your branch is up to date with 'origin/master'."
-4. Files are now being tracked for modifications locally as well as in comparison to files on the remote repo.
-
-CREATE A COMPONENTS FOLDER:
-
-1. Create a new file called "Header.js"
-2. Not using snippets to replicate boiler plate code to maximize familiarity with code and also develop muscle memory.
-3. Function declared, exported, and imported into the app.js file.
-4. Create a component file called Tasks.js. Describe structure of element. 
-5. Create a component file called Task.js. Import it into Tasks.js. 
-6. Import Tasks in app.js.
-    Chain of components created.
-    App(Main component) - > Tasks -> Task
-                        - > Header
+- a mock database has been created using json server which serves a json file. all data actions are made on the json data to simulate data coming from a backend.
 
 WHAT HAVE I LEARNED IN THE PROCESS OF MAKING THIS PROJECT:
 (To be updated along the way)
