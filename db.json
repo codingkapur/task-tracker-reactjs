@@ -1,3 +1,16 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "text": "Give Raghav a Job",
+      "time": "Now is a good time",
+      "status": true,
+      "id": 1
+    },
+    {
+      "text": "Increase CTC of Raghav to $2,000,000 p.a",
+      "time": "Immediately",
+      "status": true,
+      "id": 2
+    }
+  ]
 }
